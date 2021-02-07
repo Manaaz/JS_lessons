@@ -6,7 +6,7 @@ function convertCelsiusToFarenheit(Tc){
     alert("Температура: по цельсию: 50; по фаренгейту: " + Tf);
 }
 
-function setAdmin(name){
+function setAdmin(){
     admin = name;
     alert("admin: " + admin);
 }
@@ -14,7 +14,7 @@ function setAdmin(name){
 convertCelsiusToFarenheit(50);
 
 name = "Василий";
-setAdmin(name);
+setAdmin();
 
 var a = 1000;
 alert(a+"108");
